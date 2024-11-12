@@ -1,0 +1,289 @@
+/*=======index page button==*/
+/* mobile 
+@media(max-width:480px){
+    
+} 
+extra small devices
+@media(min-width:481px)  and(max-width:767px){
+    
+} 
+small tablets
+@media(min-width:768px) and(max-width:991px){
+    
+} 
+large tablets/laptops
+@media(min-width:992px) and(max-width:1199px){
+    
+} 
+desktops
+@media(min-width:1200px) and(max-width:1919px){
+    
+} 
+extra large screens
+@media(min-width:19200px) {
+    
+}
+*/
+@media(max-height:1900px){
+    body{
+        height: 1700px;
+
+    }
+
+button.btn.btn-primary.btn-lg.center {
+    display: block;
+    text-align: center;
+    padding: 10px 105px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+     cursor: pointer;
+}
+button.btn.btn-info.btn-lg {
+    display: block;
+    text-align: center;
+    padding: 10px 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+     cursor: pointer;
+}
+.col-lg-4.col-md-4.col-sm-4.bg-white.pt-5.h-100.bgimg.m-5 {
+    max-width: 500px;
+}
+button.btn.btn-primary.btn-lg.center.LogButton.py-15px {
+    margin-left: 100px;
+}
+button.btn.btn-info.regButton.btn-lg {
+    margin-left: 100px;
+}
+
+h1.pl-5.text1  {
+    padding-left: 20px;
+    margin-left: 240px;
+}
+table#text1 {
+    margin-top: 30px;
+    margin-left: 400px;
+    font-size: large;
+}
+tbody {
+    text-align: left;
+}
+tbody.table1 {
+    text-align: center;
+}
+@media(max-width: 1510px){
+form.form-group.register-form {
+    margin-left: 70px;    
+    max-height: 850px;
+    display:block;
+    text-align: justify;
+    width: 400px;
+    min-height: 800px;
+    
+}
+}
+/*======== for logo====*/
+img {
+    border-radius: 20px;
+}
+/*=========navbar====*/
+a.nav-link.text-light {
+    height: 20px;
+    padding: revert;
+    background-position: right;
+    float:right;
+}
+/*=================== DASHBOARD=========================*/
+.addphoto{
+    width:500px;
+    height:35vh;
+    background: #245;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.card{
+    width:300px;
+    height:20vh;
+    background:#fff;
+    padding:0px;
+    border-radius:15px;
+    text-align:center;
+    color:#345;
+
+}
+.card h1{
+
+    font-weight:100;
+    color:#000;
+}
+
+.card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+label{
+    display:block;
+    width:200px;
+    background:#e3362c;
+    color:#fff;
+    padding:8px;
+    margin: 8px auto;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.personal2{
+    background-image: linear-gradient(to right, rgba(160,200,190), rgba(254,236,230));
+
+}
+
+.training2{
+    background-image: linear-gradient(to right, rgba(160,200,190), rgba(164,216,200));
+    height: 300px;
+}
+
+.container-fluid.bg-info.cirvit.mt-2.mb-2.text-center {
+    height: 2100px;
+}
+.container-fluid.cirvit.mt-2.mb-2.text-center{
+    background-image: url('././img/image.png'); /* Path to your image */
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+}
+
+.cirvit1 {
+    height: 220px;
+    margin-left: 200px;
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.personal {
+    background: var(--section-bg-color);
+    height:700px;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+/*=======IMG FOR DASHBOARD=======*/
+.imgd {
+    padding-top: 40px;
+    padding-left: 150px;
+}
+
+/*===================education=========================*/
+.container-fluid.showedu {
+    height: 600px;
+}
+
+/*================REGISTER=======*/
+.register-form {
+	width: 500px;
+    height:70vh;
+    background: #fff;   
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/*==================PERSONAL INFO===========*/
+.container-fluid.personal {
+    height: 700px;
+    text-align: center;
+    margin-left: 80px;
+    font-size: large;
+    /* text-emphasis-style: initial; */
+}
+/*===============EXPERIENCE INFO===========*/
+
+.container-fluid.gb-2.experInfo {
+    height: 280px;
+}
+.container-fluid.gb-2.experInfo {
+    height: 650px;
+}
+.grad1 {
+  height:150px;
+  background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+.grad {
+ background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #B5FFFC 0%, #FFDEE9  100%);
+height:900px;
+   
+}
+.grad2 {
+ background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #B5FFFC 0%, #FFDEE9 100%);
+height:900px;
+}
+
+/*===============TRAINING INFO===========*/
+
+form.trainNew {
+    height: 340px;
+    text-align: center;
+}
+
+.container-fluid.m-5.trainInfo {
+    height: 285px;
+}
+/*============FOR EDIT FORM==============*/
+form.form-group.text-center.m-2.editFrom {
+    height: 232px;
+}
+
+.container-fluid.trainInfo {
+    height: 600px;
+}
+
+div#vertical-line2 {
+    border-right: 3px solid #00BFFF;
+    height: 600px;
+}
+.Training {
+    padding: 30px 0 30px;
+    border: 1px solid #3d95a3;
+}
+
+/*==========FOR VERTICAL LINE IN SKILLS===========*/
+div#vertical-line {
+    border-right:3px solid #00BFFF;
+    height: 300px;
+}
+
+form.text-center.m-2 {
+    height: 200px;
+}
+
+.container-fluid.mb-2.h-50.skills {
+    height: 290px;
+}
+
+/*===============FOOTER =========*/
+.footer .btn.btn-link{
+    position: relative;
+    display: inline-block;
+}
+.container.gx-2 {
+    height: 1405x;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
