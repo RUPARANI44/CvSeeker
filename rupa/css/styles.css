@@ -1,28 +1,4 @@
-/*=======index page button==*/
-/* mobile 
-@media(max-width:480px){
-    
-} 
-extra small devices
-@media(min-width:481px)  and(max-width:767px){
-    
-} 
-small tablets
-@media(min-width:768px) and(max-width:991px){
-    
-} 
-large tablets/laptops
-@media(min-width:992px) and(max-width:1199px){
-    
-} 
-desktops
-@media(min-width:1200px) and(max-width:1919px){
-    
-} 
-extra large screens
-@media(min-width:19200px) {
-    
-}
+
 */
 @media(max-height:1900px){
     body{
